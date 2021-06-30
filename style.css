@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+body {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url("img/black.jpg");
+  font-family: "Josefin Sans", sans-serif;
+}
+.header{
+  background:rgb(71, 70, 70) ;
+  padding: 25px;
+  margin: 0px;
+}
+
+.left {
+  position: absolute;
+  left: 60px;
+  top: 20px;
+  display: inline-block;
+  /* border: 2px solid red; */
+  text-align: center;
+  line-height: 11px;
+  font-size: 21px;
+}
+.right {
+  position: absolute;
+  right: 34px;
+  top: 30px;
+  display: inline-block;
+  /* border: 2px solid greenyellow; */
+}
+.center {
+  display: block;
+  width: 56%;
+  margin: 30px auto;
+  /* border: 2px solid purple; */
+}
+
+/* .navbar{
+  display: inline-block;
+} */
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: rgb(36, 35, 35);
+}
+
+.left img {
+  width: 87px;
+  filter: invert(100%);
+}
+
+.btn {
+  margin: 0px 9px;
+  background: rgb(88, 86, 86);
+  color: white;
+  padding: 6px 15px;
+  border: 2px solid rgb(175, 171, 171);
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.btn:hover {
+  background: grey;
+}
+
+.container {
+  border: 2px solid white;
+  margin: 110px 100px;
+  padding: 20px;
+  width: 33%;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.input-group input{
+  display: block;
+  text-align: center;
+  width: 265px;
+  margin: 22px auto;
+  padding: 1px;
+  font-size: 25px;
+  border: 2px solid green;
+  border-radius: 15px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.container button {
+  display: block;
+  margin: auto;
+  width: 116px;
+}
+
+.footer
+{
+  display: block;
+  background:rgb(71, 70, 70);
+  padding: 10px;
+  text-align: center;
+}
